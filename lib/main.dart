@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-String softwareVersion = "DV v1.0.0";
+String softwareVersion = "DV v1.0.1";
 
 void main() {
   runApp(MyApp());
@@ -138,7 +138,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Divider(),
                     InkWell(
                         child: new Text(softwareVersion, style: TextStyle(fontSize: 14, color: Colors.blue),),
-                        onTap: () => launch('https://google.com')
+                        onTap: () => launch('https://github.com/mrmenb/dic_rumantsch')
                     ),
 
                   ],
